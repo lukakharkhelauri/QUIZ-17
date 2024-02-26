@@ -1,0 +1,19 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px;
+
+    .textContainer{
+        flex:1;
+    }
+
+    .imageContainer{
+        flex-shrink:0;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+}

@@ -1,0 +1,36 @@
+.header{
+    background-color:gray;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px 20px;
+
+    .logo{
+        font-size: 2rem;
+    }
+
+    .nav ul{
+        display:flex;
+    }
+
+    .nav ul li{
+        margin-right:20px;
+    }
+
+    nav a{
+        color:White;
+        font-weight:bold;
+        font-size:30px;
+    }
+
+    .authorication a {
+        margin-left:20px;
+        border: 1px solid white;
+        color:White;
+        padding:5px 10px;
+        border-radius:5px;
+    }
+
+}
+
